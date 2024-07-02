@@ -1,0 +1,29 @@
+[
+    {
+        "name": "TechHive",
+        "description": "WanderSEA is a tourism management system where user can see many places of inside and outside of the countries!",
+        "technologies": ["React.js", "Express.js", "Node.js", "MongoDB", "TailwindCSS", "HTML5"],
+        "link": "https://tech-hive-d9f7e.web.app/",
+        "client": "https://github.com/MiM1303/techhive-client.git",
+        "server": "https://github.com/MiM1303/techhive-server.git",
+        "image": "https://i.ibb.co/RTBxfw9/techhive-home.png"
+    },
+    {
+        "name": "Meraki",
+        "description": "Meraki is a community food sharing and surplus reduction platform designed to connect users for food sharing!",
+        "technologies": ["React.js", "Express.js", "Node.js", "MongoDB", "TailwindCSS", "HTML5"],
+        "link": "https://meraki-4207e.web.app/",
+        "client": "https://github.com/MiM1303/Meraki.git",
+        "server": "https://github.com/MiM1303/Meraki-server.git",
+        "image": "https://i.ibb.co/XV0nxBz/meraki-home.png"
+    },
+    {
+        "name": "Serendipia",
+        "description": "WanderSEA is a tourism management system where user can see many places of inside and outside of the countries!",
+        "technologies": ["React.js", "Express.js", "Node.js", "MongoDB", "TailwindCSS", "HTML5"],
+        "link": "https://serendipia-1ed11.web.app/",
+        "client": "https://github.com/MiM1303/Serendipia-client.git",
+        "server": "https://github.com/MiM1303/Serendipia-server.git",
+        "image": "https://i.ibb.co/0BQdKx9/serendipia-home.png"
+    }
+]
