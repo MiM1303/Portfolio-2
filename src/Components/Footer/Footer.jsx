@@ -9,7 +9,7 @@ const Footer = () => {
         className="mb-4 text-center font-normal text-blue-gray-900 md:mb-0"
       >
         &copy; {currentYear}{" "}
-        <a href="https://material-tailwind.com/">Mahbub Sarwar</a>. All
+        <a href="https://material-tailwind.com/">Jannatul Ferdous Mirza</a>. All
         Rights Reserved.
       </Typography>
     </div>

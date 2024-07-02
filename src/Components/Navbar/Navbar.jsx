@@ -92,7 +92,7 @@ export function StickyNavbar() {
             href="#"
             className="mr-4 mons text-2xl font-bold cursor-pointer py-1.5"
           >
-            <span className="text-blue-500">M</span>ahbub <span className="text-blue-500">S</span>arwar
+            <span className="text-blue-500">J</span>annatul <span className="text-blue-500">F</span>erdous <span className="text-blue-500">M</span>irza
           </Typography>
           <div className="flex items-center gap-4">
             <div className="mr-4 hidden lg:block">{navList}</div>
