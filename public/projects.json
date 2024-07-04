@@ -6,7 +6,11 @@
         "link": "https://tech-hive-d9f7e.web.app/",
         "client": "https://github.com/MiM1303/techhive-client.git",
         "server": "https://github.com/MiM1303/techhive-server.git",
-        "image": "https://i.ibb.co/RTBxfw9/techhive-home.png"
+        "image": "https://i.ibb.co/RTBxfw9/techhive-home.png",
+        "features": ["Access control for user, moderator and admin", 
+                    "Regular users can view their profile add a product and see the list of their added products", 
+                    "Users purchase memberships subscription through a payment system with or without discount to add more than one product"]
+        
     },
     {
         "name": "Meraki",
@@ -15,7 +19,10 @@
         "link": "https://meraki-4207e.web.app/",
         "client": "https://github.com/MiM1303/Meraki.git",
         "server": "https://github.com/MiM1303/Meraki-server.git",
-        "image": "https://i.ibb.co/XV0nxBz/meraki-home.png"
+        "image": "https://i.ibb.co/XV0nxBz/meraki-home.png",
+        "features": ["Users can donate food by filling up the form in Add A Food page", 
+                    "Manage my foods page to see, update and delete previously donated foods", 
+                    "Users can see their requested food from my requested foods"]
     },
     {
         "name": "Serendipia",
@@ -24,6 +31,9 @@
         "link": "https://serendipia-1ed11.web.app/",
         "client": "https://github.com/MiM1303/Serendipia-client.git",
         "server": "https://github.com/MiM1303/Serendipia-server.git",
-        "image": "https://i.ibb.co/0BQdKx9/serendipia-home.png"
+        "image": "https://i.ibb.co/0BQdKx9/serendipia-home.png",
+        "features": ["Home page consisting of an attractive automatic slider with a typewriter showing the travel destination countries",
+                    "List of countries we offer travel tour information about", 
+                    "Private routes for logged in users to view their profile, add a tour spot and see, update and delete their added spots"]
     }
 ]

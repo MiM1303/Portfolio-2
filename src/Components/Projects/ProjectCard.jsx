@@ -9,10 +9,12 @@ import {
   IconButton,
 } from "@material-tailwind/react";
 import { Link } from "react-router-dom";
+import { VscDebugBreakpointData } from "react-icons/vsc";
 
 const ProjectCard = ({ project }) => {
-  const { name, image, server, client, technologies, description, link } =
+  const { name, image, server, client, technologies, features, description, link } =
     project;
+    console.log(features);
   return (
     <Card className="w-full max-w-[26rem] shadow-lg">
       <CardHeader floated={false} color="blue-gray">
@@ -28,6 +30,16 @@ const ProjectCard = ({ project }) => {
         <Typography color="gray" className="mb-4">
           {description}
         </Typography>
+        <div className="grid grid-cols-1">
+          {features.map((item, idx) => (
+            <p
+              key={idx}
+              className="my-2 mx-1 text-[14px] flex gap-2"
+            >
+              <span><VscDebugBreakpointData  className="mt-1"/></span> {item}
+            </p>
+          ))}
+        </div>
         <div className="grid grid-cols-3">
           {technologies.map((item, idx) => (
             <p

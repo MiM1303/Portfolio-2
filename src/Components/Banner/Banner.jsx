@@ -5,9 +5,30 @@ import { IoIosMail, IoLogoWhatsapp } from "react-icons/io";
 import { IoCall } from "react-icons/io5";
 import { FaDownload, FaGithub, FaLinkedin } from "react-icons/fa";
 import { Link } from "react-router-dom";
-import Resume_Jannatul_Ferdous_Mirza from "../../assets/webresume.pdf";
+import webresume from "../../assets/webresume.pdf";
+// import webresume from "../../../public/webresume.pdf";
 
 const Banner = () => {
+
+//   const onButtonClick = () => {
+     
+//     // using Java Script method to get PDF file
+//     fetch("/webresume.pdf").then((response) => {
+//         response.blob().then((blob) => {
+         
+//             // Creating new object of PDF file
+//             const fileURL =
+//                 window.URL.createObjectURL(blob);
+                 
+//             // Setting various property values
+//             let alink = document.createElement("a");
+//             alink.href = fileURL;
+//             alink.download = "webresume.pdf";
+//             alink.click();
+//         });
+//     });
+// };
+
   return (
     <div className="ml-6 my-32 flex justify-between gap-8 min-h-full">
       <div className="flex items-center flex-1">
@@ -21,7 +42,7 @@ const Banner = () => {
             className="text-4xl"
             style={{ paddingTop: "1rem", fontWeight: "normal" }}
           >
-            I am{" "}
+            {" "}
             <span className="text-blue-400" style={{ fontWeight: "bold" }}>
               {/* Style will be inherited from the parent element */}
               <Typewriter
@@ -39,6 +60,7 @@ const Banner = () => {
                 delaySpeed={1000}
               />
             </span>
+            <p className="text-2xl mt-6">I am an aspiring MERN developer on a journey to build dynamic web applications.</p>
           </h1>
           <div className="mt-6 flex gap-10">
             <div className="flex items-center font-medium gap-2 text-xl">
@@ -51,7 +73,7 @@ const Banner = () => {
             </div>
           </div>
           <div className="mt-8 flex gap-4">
-            <a href={Resume_Jannatul_Ferdous_Mirza} download="Resume_Jannatul_Ferdous_Mirza" target="_blank">
+            <a href={webresume} download="Resume_Jannatul_Ferdous_Mirza.pdf"  target="_blank">
               <Button className="py-4 bg-blue-500 hover:bg-blue-800 flex gap-2 items-center">
                 <FaDownload className="text-lg"></FaDownload>Download Resume
               </Button>
